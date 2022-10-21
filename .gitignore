@@ -1,8 +1,8 @@
-*.js
-!jest.config.js
-*.d.ts
-node_modules
+cdk-eks/*.js
+cdk-eks/!jest.config.js
+cdk-eks/*.d.ts
+cdk-eks/node_modules
 
 # CDK asset staging directory
-.cdk.staging
-cdk.out
+cdk-eks/.cdk.staging
+cdk-eks/cdk.out
